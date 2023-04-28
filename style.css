@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #374639;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ececec;
+}
+
+/* ------------- SECTION 1 -------------- */
+.section-1 {
+    padding: 30px;
+    background-color: white;
+}
+
+.section-title {
+    width: 480px;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    margin-bottom: 15px;
+}
+
+.section-title p {
+    font-size: 17px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.courses .course {
+    width: 100%;
+}
+
+.courses .course img {
+    width: 100%;
+}
+
+.courses .course h3 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin: 5px 0;
+}
+
+.courses .course p {
+    width: 92%;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.courses .course .sale {
+    font-size: 12px;
+    color: #72776C;
+    text-decoration-line: line-through;
+}
+
+.courses .course .schedules {
+    margin-top: 25px;
+}
+
+.courses .course .schedules .schedule {
+    margin: 20px 0;
+}
+
+
+
+/* -------------- SECTION 2 --------------- */
+
+.section-2 {
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: start;
+    justify-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.section-2 .section-img img {
+    border-radius: 5px;
+}
+
+.section-2 .section-content .title {
+    font-size: 15px;
+    color: #cfcfcf;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.section-2 .section-content .img-group {
+    margin-bottom: 5px;
+}
+
+.section-2 .section-content .content {
+    font-size: 28px;
+    color: #0D0D0D;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    width: 70%;
+    margin: auto;
+}
+
+.section-2 .section-content .name {
+    color: #0D0D0D;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.section-2 .section-content .role {
+    color: #cfcfcf;
+    font-size: 16px;
+}
