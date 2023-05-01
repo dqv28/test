@@ -81,8 +81,6 @@ body {
 /* -------------- SECTION 2 --------------- */
 
 .section-2 {
-    max-width: 1200px;
-    margin: auto;
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -98,7 +96,7 @@ body {
 }
 
 .section-2 .section-content .title {
-    font-size: 15px;
+    font-size: 14px;
     color: #cfcfcf;
     font-weight: 300;
     margin-top: 20px;
@@ -115,7 +113,7 @@ body {
     color: #0D0D0D;
     font-weight: 400;
     letter-spacing: -0.04em;
-    width: 70%;
+    width: 62%;
     margin: auto;
 }
 
@@ -128,4 +126,143 @@ body {
 .section-2 .section-content .role {
     color: #cfcfcf;
     font-size: 16px;
+}
+
+
+
+/* -------------- REPONSIVE -------------- */
+@media only screen and (max-width: 1024px) {
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .section-2 .section-img img {
+        width: 430px;
+        height: 320px;
+    }
+
+    .section-2 .section-content .title {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+
+    .section-2 .section-content .img-group img {
+        width: 12px;
+        height: 24px;
+    }
+    
+    .section-2 .section-content .content {
+        font-size: 20px;
+    }
+
+    .section-2 .section-content .name {
+        font-size: 14px;
+    }
+
+    .section-2 .section-content .role {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .section-2 {
+        display: block;
+    }
+
+    .section-2 .section-content .title {
+        font-size: 16px;
+    }
+
+    .section-2 .section-content .content {
+        font-size: 27px;
+    }
+
+    .section-2 .section-content .img-group img {
+        width: 15px;
+        height: 30px;
+    }
+
+    .section-2 .section-img img {
+        width: 580px;
+        height: 420px;
+    }
+
+    .section-2 .section-content .name {
+        font-size: 18px;
+    }
+
+    .section-2 .section-content .role {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 42px;
+    }
+
+    .section-title p {
+        font-size: 19px;
+    }
+
+    .courses .course img {
+        height: 380px;
+    }
+
+    .courses .course h3 {
+        font-size: 24px;
+    }
+
+    .courses .course p {
+        width: 92%;
+        font-size: 18px;
+    }
+
+    .courses .course .sale {
+        font-size: 16px;
+    }
+
+    .courses .course .price {
+        font-size: 22px;
+    }
+
+    .courses .course .schedules {
+        font-size: 20px;
+    }
+
+    .section-2 .section-img img {
+        width: 100%;
+        height: 380px;
+    }
+
+    .section-2 .section-content .title {
+        margin-bottom: 50px;
+    }
+
+    .section-2 .section-content .content {
+        width: 84%;
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .section-2 .section-content .img-group img {
+        width: 25px;
+        height: 50px;
+    }
 }
