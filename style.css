@@ -47,6 +47,7 @@ body {
 
 .courses .course img {
     width: 100%;
+    height: auto;
 }
 
 .courses .course h3 {
@@ -140,7 +141,7 @@ body {
 
     .section-2 .section-img img {
         width: 430px;
-        height: 320px;
+        height: auto;
     }
 
     .section-2 .section-content .title {
@@ -151,7 +152,7 @@ body {
 
     .section-2 .section-content .img-group img {
         width: 12px;
-        height: 24px;
+        height: auto;
     }
     
     .section-2 .section-content .content {
@@ -188,12 +189,12 @@ body {
 
     .section-2 .section-content .img-group img {
         width: 15px;
-        height: 30px;
+        height: auto;
     }
 
     .section-2 .section-img img {
         width: 580px;
-        height: 420px;
+        height: auto;
     }
 
     .section-2 .section-content .name {
@@ -221,7 +222,7 @@ body {
     }
 
     .courses .course img {
-        height: 380px;
+        height: auto;
     }
 
     .courses .course h3 {
@@ -247,7 +248,7 @@ body {
 
     .section-2 .section-img img {
         width: 100%;
-        height: 380px;
+        height: auto;
     }
 
     .section-2 .section-content .title {
@@ -263,6 +264,6 @@ body {
 
     .section-2 .section-content .img-group img {
         width: 25px;
-        height: 50px;
+        height: auto;
     }
 }
